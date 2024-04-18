@@ -1,0 +1,66 @@
+.support-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../assets/blank background.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.support-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  margin: 20px;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  overflow: hidden;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(255, 37, 30);
+}
+
+.card2 {
+  margin: 20px;
+  border: 2px solid #ffe600;
+  border-radius: 8px;
+  overflow: hidden;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(252, 248, 57);
+}
+
+.card3 {
+  margin: 20px;
+  border: 2px solid #0004ff;
+  border-radius: 8px;
+  overflow: hidden;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(23, 39, 255);
+}
+
+.card4 {
+  margin: 20px;
+  border: 2px solid #00ff0d;
+  border-radius: 8px;
+  overflow: hidden;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(17, 250, 37);
+}
+
+.card-icon {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-label {
+  padding: 10px;
+  text-align: center;
+  background-color: #ffa826;
+  color: #ffffff;
+  font-weight: bold;
+}
